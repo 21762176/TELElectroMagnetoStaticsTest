@@ -9030,9 +9030,10 @@ return p.length===0?p+"\\vec{0}":p},
 aE1(){var s=t.oy
 return new A.OK(A.a([new A.m8(new A.aq(-2,0,0),new A.aq(0,2,0),1)],t.CE),new A.aq(0,0,0),A.a([],s),A.a([],s),new A.aq(0,0,0),new A.aq(0,0,0),$.ba())},
 KI(a,b,c){return new A.m8(b,c,a)},
-aAr(a,b,c,d,e){var s,r,q=(d-c)/e,p=A.w(t.N,t.q_),o=new A.LO(p,A.aZ(t.u7)),n=A.a([],t.n)
-for(s=b.b,r=c;r<d;r+=q){p.l(0,s,new A.j1(r))
-n.push(q*a.aM(0,B.ah,o))}return B.b.rf(n,new A.avm())},
+aAr(a,b,c,d,e){var s,r,q,p=(d-c)/e,o=A.w(t.N,t.q_),n=new A.LO(o,A.aZ(t.u7)),m=A.a([],t.n)
+for(s=b.b,r=c;r<d;r+=p){o.l(0,s,new A.j1(r))
+m.push(p*a.aM(0,B.ah,n))}q=B.b.rf(m,new A.avm())
+return q},
 OK:function OK(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
@@ -49283,17 +49284,17 @@ n(){if(this.e){var s=this.d
 s===$&&A.d()
 s.a8$=$.ba()
 s.Y$=0}this.aW()},
-Br(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9=this,d0=null,d1="\\text{Step 1: Find } \\vec{s}",d2="\\text{Step 2: Find } \\vec{f}",d3="\\text{Step 3: Find } \\vec{R}",d4="+",d5="-",d6="\\text{Step 4: Find } R",d7="d \\overrightarrow{E}  = \\frac{\\rho_{\\ell}  \\overrightarrow{R} }{4 \\pi \\varepsilon R ^3} \\mathrm{d} \\ell ",d8="d \\ell  = r d \\phi",d9=u.I,e0="\\overrightarrow{f}  = ",e1=u.L,e2="\\begin{aligned}\\overrightarrow{R}  &= \\overrightarrow{f}  - \\overrightarrow{s} \\\\&= \\left(",e3=u.F,e4="}{4 \\times 3.1416 \\times 8.8542 \\times 10^{-12}}\\frac{",e5=" \\:\\text{  V/m}\\end{aligned}",e6="    where",e7="assets/line_elec.png",e8="    The position vector of any arbitrary point on the line charge can be expressed as",e9="    Calculate the distance value",f0="    Apply Coulomb's law to calculate the electric field due to line charge in element as",f1="    Calculate the total electric field by integrating over the line charge as",f2="}{4 \\times 3.1416 \\times 8.8542 \\times 10^{-12} \\times \\left( ",f3="\\overrightarrow{E}  = ",f4="&= \\int_{0}^{2\\pi} \\frac{ ",f5=" \\right)^3} \\mathrm{d} \\phi",f6=A.a([],t.X6),f7=t.p,f8=t.EQ,f9=t.NS,g0=t.dk,g1=0,g2=0
+Br(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9=this,d0=null,d1="\\text{Step 1: Find } \\vec{s}",d2="\\text{Step 2: Find } \\vec{f}",d3="\\text{Step 3: Find } \\vec{R}",d4="+",d5="-",d6="\\text{Step 4: Find } R",d7="d \\overrightarrow{E}  = \\frac{\\rho_{\\ell}  \\overrightarrow{R} }{4 \\pi \\varepsilon R ^3} \\mathrm{d} \\ell ",d8="d \\ell  = r d \\phi",d9=u.I,e0="\\overrightarrow{f}  = ",e1=u.L,e2="\\begin{aligned}\\overrightarrow{R}  &= \\overrightarrow{f}  - \\overrightarrow{s} \\\\&= \\left(",e3=u.F,e4="}{4 \\times 3.1416 \\times 8.8542 \\times 10^{-12}}\\frac{",e5=" \\:\\text{  V/m}\\end{aligned}",e6="    where",e7="assets/line_elec.png",e8="    Calculate the distance value",e9="}{4 \\times 3.1416 \\times 8.8542 \\times 10^{-12} \\times \\left( ",f0="\\overrightarrow{E}  = ",f1="&= \\int_{0}^{2\\pi} \\frac{ ",f2=" \\right)^3} \\mathrm{d} \\phi",f3=A.a([],t.X6),f4=t.p,f5=t.EQ,f6=t.NS,f7=t.dk,f8=0,f9=0
 while(!0){s=c9.d
 s===$&&A.d()
 r=s.a
 q=r.length
-if(!(g2<q))break
-c$0:{++g1
-p=r[g2]
-o=A.a([],f7)
+if(!(f9<q))break
+c$0:{++f8
+p=r[f9]
+o=A.a([],f4)
 n=A.C(p)
-if(B.XO===n){g0.a(p)
+if(B.XO===n){f7.a(p)
 s=A.Q(B.t,A.aak("assets/point_elec.png",300),B.e,d0,d0,d0,d0,d0,d0,d0)
 r=A.Q(B.z,A.b7(A.aS(d1,B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
 q=A.Q(B.z,A.aa("    The position vector of the point charge can be expressed as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
@@ -49370,7 +49371,7 @@ b2=b2.c-m
 b6=new A.aq(b4,b5,b2).gF()
 b7=11126500554478704e-26*(b4*b4+b5*b5+b2*b2)
 b7=A.c4(new A.aq(b4/b6*a5/b7,b5/b6*a5/b7,b2/b6*a5/b7))
-B.b.G(o,A.a([s,r,q,l,k,j,i,h,g,f,e,d,a,a0,a1,a2,a3,a4,a6,a7,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{E}  &= \\frac{Q  \\overrightarrow{a_R} }{4 \\mathrm{\\pi}  \\varepsilon_0  R ^2}\\\\&= \\frac{"+a8+e4+a9+"}{"+b0+" ^2 }\\\\&= "+b1+" \\cdot  ("+b3+")\\\\&= "+b7+e5,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f7))
+B.b.G(o,A.a([s,r,q,l,k,j,i,h,g,f,e,d,a,a0,a1,a2,a3,a4,a6,a7,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{E}  &= \\frac{Q  \\overrightarrow{a_R} }{4 \\mathrm{\\pi}  \\varepsilon_0  R ^2}\\\\&= \\frac{"+a8+e4+a9+"}{"+b0+" ^2 }\\\\&= "+b1+" \\cdot  ("+b3+")\\\\&= "+b7+e5,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f4))
 s=A.af(c,!1,!1,4)
 r=A.af(b,!1,!1,4)
 q=A.af(m,!1,!1,4)
@@ -49381,8 +49382,8 @@ b=k.b-b
 m=k.c-m
 k=new A.aq(c,b,m).gF()
 j=11126500554478704e-26*(c*c+b*b+m*m)
-f6.push([A.rP(g1,"The electric field intensity due to point charge","\\text{at } ("+s+", "+r+", "+q+") \\text{ with }Q  = "+l+" \\mathrm{C}"," \\overrightarrow{E}  = "+A.c4(new A.aq(c/k*a5/j,b/k*a5/j,m/k*a5/j))+" \\:\\text{  V/m}",""),o])
-break c$0}if(B.XN===n){f9.a(p)
+f3.push([A.rP(f8,"The electric field intensity due to point charge","\\text{at } ("+s+", "+r+", "+q+") \\text{ with }Q  = "+l+" \\mathrm{C}"," \\overrightarrow{E}  = "+A.c4(new A.aq(c/k*a5/j,b/k*a5/j,m/k*a5/j))+" \\:\\text{  V/m}",""),o])
+break c$0}if(B.XN===n){f6.a(p)
 s=p.b
 r=s.a
 q=s.b
@@ -49392,7 +49393,7 @@ k=l.a
 j=l.b
 i=l.c
 b8="\\text{from } ("+A.af(r,!1,!1,4)+", "+A.af(q,!1,!1,4)+", "+A.af(m,!1,!1,4)+") \\text{ to } ("+A.af(k,!1,!1,4)+", "+A.af(j,!1,!1,4)+", "+A.af(i,!1,!1,4)+")\\text{ with } "
-b9=A.a([],f7)
+b9=A.a([],f4)
 h=p.d
 if(p.e){c0=A.af(h,!1,!1,4)
 b8+="\\rho_{\\ell}  = "+A.kA(h)+" \\mathrm{C/m}"}else{g=k-r
@@ -49403,7 +49404,7 @@ b8+="Q  = "+A.kA(h)+" \\mathrm{C}"
 d=A.Q(B.z,A.aa(e6,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 h=A.af(h,!1,!1,4)
 e=A.af(new A.aq(g,f,e).gF(),!1,!1,4)
-B.b.G(b9,A.a([d,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\rho_{\\ell}  &= \\frac{Q }{L }\\\\&= \\frac{"+h+"}{"+e+"}\\\\&= "+c0+" \\:\\text{  C/m}\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f7))}h=A.Q(B.t,A.aak(e7,300),B.e,d0,d0,d0,d0,d0,d0,d0)
+B.b.G(b9,A.a([d,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\rho_{\\ell}  &= \\frac{Q }{L }\\\\&= \\frac{"+h+"}{"+e+"}\\\\&= "+c0+" \\:\\text{  C/m}\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f4))}h=A.Q(B.t,A.aak(e7,300),B.e,d0,d0,d0,d0,d0,d0,d0)
 g=A.Q(B.z,A.b7(A.aS(d1,B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
 f=A.Q(B.z,A.aa("    The vector of the line charge can be given by",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 c1=A.c4(s)
@@ -49430,7 +49431,7 @@ c1=A.c4(s)
 c2=A.c4(l)
 i=A.c4(new A.aq((r+k)/2,(q+j)/2,(m+i)/2))
 s=A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{s_\\text{C}}  &= \\frac{\\overrightarrow{OA}  + \\overrightarrow{OB} }{2}\\\\&= \\frac{"+("("+c1+")+("+c2+")")+"}{2}\\\\&= "+i+"\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-r=A.Q(B.z,A.aa(e8,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+r=A.Q(B.z,A.aa("    The position vector of any arbitrary point on the line charge can be expressed as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 q=p.ganw()
 m=p.ghR()
 q=A.Q(B.t,A.b7(A.aS(u.Z+q+"\\\\&= "+m+"\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
@@ -49449,14 +49450,14 @@ a5=a5?"\\left( "+p.ghR()+" \\right)":p.ghR()
 a6=p.ho(c9.d.b)
 a4=A.Q(B.t,A.b7(A.aS(e2+a4+"\\right) - "+a5+"\\\\&= "+a6+"\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
 a5=A.Q(B.z,A.b7(A.aS(d6,B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-a6=A.Q(B.z,A.aa(e9,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+a6=A.Q(B.z,A.aa(e8,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 a7=p.IL(c9.d.b)
 a8=p.nb(c9.d.b)
 a7=A.Q(B.t,A.b7(A.aS(e3+a7+"\\\\&= "+a8+"\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
 a8=A.Q(B.z,A.b7(A.aS("\\text{Step to find } \\overrightarrow{E}  \\text{ due to line charge}",B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-a9=A.Q(B.z,A.aa(f0,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+a9=A.Q(B.z,A.aa("    Apply Coulomb's law to calculate the electric field due to line charge in element as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 b0=A.Q(B.t,A.b7(A.aS(d7,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-b1=A.Q(B.z,A.aa(f1,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+b1=A.Q(B.z,A.aa("    Calculate the total electric field by integrating over the line charge as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 b2=p.ho(c9.d.b)
 if(!A.e5(b2,d5,0)){b2=p.ho(c9.d.b)
 b2=A.e5(b2,d4,0)}else b2=!0
@@ -49489,15 +49490,15 @@ c7=p.Rj(b5,new A.aq(e,d,c).gF()/2)
 b5=p.Rj(b5,-new A.aq(e,d,c).gF()/2)
 c=p.gz0()/new A.aq(e,d,c).gF()/11126500554478704e-26
 c=A.c4(new A.aq((b6-b7)*c,(c5-c6)*c,(c7-b5)*c))
-s=A.a([h,g,f,b,a,a0,a1,a2,a3,s,r,q,m,l,k,j,i,a4,a5,a6,a7,a8,a9,b0,b1,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{E}  &= \\int_{-\\frac{L }{2}}^{\\frac{L }{2}} \\frac{\\rho_{\\ell}  \\overrightarrow{R} }{4 \\pi \\varepsilon R ^3} \\mathrm{d} \\ell \\\\&= \\int_{-\\frac{L }{2}}^{\\frac{L }{2}} \\frac{ "+c0+" \\times"+b2+f2+b3+" \\right)^3} \\mathrm{d} \\ell \\\\&= "+b4+" \\:\\text{  V/m}\\text{ (numerical integration)}\\\\&= "+c+" \\:\\text{  V/m}\\text{ (symbolic)} \\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f7)
+s=A.a([h,g,f,b,a,a0,a1,a2,a3,s,r,q,m,l,k,j,i,a4,a5,a6,a7,a8,a9,b0,b1,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{E}  &= \\int_{-\\frac{L }{2}}^{\\frac{L }{2}} \\frac{\\rho_{\\ell}  \\overrightarrow{R} }{4 \\pi \\varepsilon R ^3} \\mathrm{d} \\ell \\\\&= \\int_{-\\frac{L }{2}}^{\\frac{L }{2}} \\frac{ "+c0+" \\times"+b2+e9+b3+" \\right)^3} \\mathrm{d} \\ell \\\\&= "+b4+" \\:\\text{  V/m}\\text{ (numerical integration)}\\\\&= "+c+" \\:\\text{  V/m}\\text{ (symbolic)} \\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f4)
 B.b.G(s,b9)
 B.b.G(o,s)
-f6.push([A.rP(g1,"The electric field intensity due to line charge",b8,f3+A.c4(p.hh(c9.d.b))+" \\:\\text{  V/m}",""),o])
-break c$0}if(B.XM===n){f8.a(p)
+f3.push([A.rP(f8,"The electric field intensity due to line charge",b8,f0+A.c4(p.hh(c9.d.b))+" \\:\\text{  V/m}",""),o])
+break c$0}if(B.XM===n){f5.a(p)
 s=p.b
 r=p.c
 b8="\\text{center at } ("+A.af(s.a,!1,!1,4)+", "+A.af(s.b,!1,!1,4)+", "+A.af(s.c,!1,!1,4)+") \\text{ with } r="+A.af(r,!1,!1,4)+" \\:\\text{  m} \\text{ and }"
-b9=A.a([],f7)
+b9=A.a([],f4)
 q=p.d
 if(p.e){m=A.af(q,!1,!1,4)
 l=p.ho(c9.d.b)
@@ -49505,24 +49506,24 @@ if(!A.e5(l,d5,0)){l=p.ho(c9.d.b)
 l=A.e5(l,d4,0)}else l=!0
 k=c9.d.b
 l=l?"\\left( "+p.ho(k)+" \\right)":p.ho(k)
-c0=f4+m+" \\times"+l+" \\times  "+A.af(r,!1,!1,4)+f2+p.nb(c9.d.b)+f5
+c0=f1+m+" \\times"+l+" \\times  "+A.af(r,!1,!1,4)+e9+p.nb(c9.d.b)+f2
 b8+="\\rho_{\\ell}  = "+A.kA(q)+" \\mathrm{C/m}"
 q=A.Q(B.z,A.aa(e6,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
-B.b.G(b9,A.a([q,A.Q(B.t,A.b7(A.aS(d8,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f7))
+B.b.G(b9,A.a([q,A.Q(B.t,A.b7(A.aS(d8,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f4))
 c8="\\int_{0}^{2\\pi}\\frac{\\rho_{\\ell}  \\vec{R}}{4\\pi \\varepsilon_0  R^3}r d \\phi"}else{m=A.af(q,!1,!1,4)
 l=p.ho(c9.d.b)
 if(!A.e5(l,d5,0)){l=p.ho(c9.d.b)
 l=A.e5(l,d4,0)}else l=!0
 k=c9.d.b
 l=l?"\\left( "+p.ho(k)+" \\right)":p.ho(k)
-c0=f4+m+" \\times"+l+" }{8 \\times 3.1416^2 \\times 8.8542 \\times 10^{-12} \\times \\left( "+p.nb(c9.d.b)+f5
+c0=f1+m+" \\times"+l+" }{8 \\times 3.1416^2 \\times 8.8542 \\times 10^{-12} \\times \\left( "+p.nb(c9.d.b)+f2
 b8+="Q  = "+A.kA(q)+" \\mathrm{C}"
 q=A.Q(B.z,A.aa(e6,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 m=A.Q(B.t,A.b7(A.aS(d8,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-B.b.G(b9,A.a([q,m,A.Q(B.t,A.b7(A.aS("\\rho_{\\ell}  = \\frac{Q }{L } = \\frac{Q }{2 \\pi r}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f7))
+B.b.G(b9,A.a([q,m,A.Q(B.t,A.b7(A.aS("\\rho_{\\ell}  = \\frac{Q }{L } = \\frac{Q }{2 \\pi r}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f4))
 c8="\\int_{0}^{2\\pi}\\frac{\\rho_{\\ell}  \\vec{R}}{4\\pi \\varepsilon_0  R^3}r d \\phi=\\int_{0}^{2\\pi}\\frac{Q  \\vec{R}}{2\\pi(4\\pi \\varepsilon_0  R^3)} d \\phi"}q=A.Q(B.t,A.aak(e7,300),B.e,d0,d0,d0,d0,d0,d0,d0)
 m=A.Q(B.z,A.b7(A.aS(d1,B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-l=A.Q(B.z,A.aa(e8,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+l=A.Q(B.z,A.aa("    The position vector of any arbitrary point on the circular charge can be expressed as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 s=A.c4(s)
 r=A.af(r,!1,!1,4)
 k=p.ghR()
@@ -49542,23 +49543,23 @@ f=f?"\\left( "+p.ghR()+" \\right)":p.ghR()
 e=p.ho(c9.d.b)
 g=A.Q(B.t,A.b7(A.aS(e2+g+"\\right) - "+f+"\\\\&= "+e+"\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
 f=A.Q(B.z,A.b7(A.aS(d6,B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-e=A.Q(B.z,A.aa(e9,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+e=A.Q(B.z,A.aa(e8,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 d=p.IL(c9.d.b)
 c=p.nb(c9.d.b)
 d=A.Q(B.t,A.b7(A.aS(e3+d+"\\\\&= "+c+"\\end{aligned}",B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
 c=A.Q(B.z,A.b7(A.aS("\\text{Step to find } \\overrightarrow{E}  \\text{ due to circular charge}",B.p,new A.o(!0,d0,d0,d0,d0,d0,18,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-b=A.Q(B.z,A.aa(f0,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+b=A.Q(B.z,A.aa("    Apply Coulomb's law to calculate the electric field due to circular charge in element as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 a=A.Q(B.t,A.b7(A.aS(d7,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)
-a0=A.Q(B.z,A.aa(f1,d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
+a0=A.Q(B.z,A.aa("    Calculate the total electric field by integrating over the circular charge as",d0,d0,d0,!0,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0),B.P,d0),B.e,d0,d0,d0,d0,d0,d0,d0)
 a1=A.c4(p.hh(c9.d.b))
-s=A.a([q,m,l,s,r,k,j,i,h,g,f,e,d,c,b,a,a0,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{E}  &= \\int_{\\ell} \\frac{\\rho_{\\ell}  \\overrightarrow{R} }{4 \\pi \\varepsilon R ^3} \\mathrm{d} \\ell = "+c8+"\\\\"+c0+"\\\\&= "+a1+e5,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f7)
+s=A.a([q,m,l,s,r,k,j,i,h,g,f,e,d,c,b,a,a0,A.Q(B.t,A.b7(A.aS("\\begin{aligned}\\overrightarrow{E}  &= \\int_{\\ell} \\frac{\\rho_{\\ell}  \\overrightarrow{R} }{4 \\pi \\varepsilon R ^3} \\mathrm{d} \\ell = "+c8+"\\\\"+c0+"\\\\&= "+a1+e5,B.p,new A.o(!0,d0,d0,d0,d0,d0,16,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0,d0)),new A.T(2,2,2,2),B.m),B.e,d0,d0,d0,d0,d0,d0,d0)],f4)
 B.b.G(s,b9)
 B.b.G(o,s)
-f6.push([A.rP(g1,"The electric field intensity due to circular charge",b8,f3+A.c4(p.hh(c9.d.b))+" \\:\\text{  V/m}",""),o])
+f3.push([A.rP(f8,"The electric field intensity due to circular charge",b8,f0+A.c4(p.hh(c9.d.b))+" \\:\\text{  V/m}",""),o])
 break c$0}o.push(new A.vQ(d0))
-f6.push([A.rP(g1,"Calculate","","",""),o])
-break c$0}++g2}if(q>1)f6.push([A.rP(g1+1,"The total electric field intensity","",f3+A.c4(s.e)+" \\:\\text{  V/m}",""),A.a([A.aFr(u.Y),A.azA(f3+A.c4(c9.d.e)+" \\:\\text{  V/m}")],f7)])
-return f6},
+f3.push([A.rP(f8,"Calculate","","",""),o])
+break c$0}++f9}if(q>1)f3.push([A.rP(f8+1,"The total electric field intensity","",f0+A.c4(s.e)+" \\:\\text{  V/m}",""),A.a([A.aFr(u.Y),A.azA(f0+A.c4(c9.d.e)+" \\:\\text{  V/m}")],f4)])
+return f3},
 N(a){var s=null
 return A.Q(s,new A.wE(this.Br(),s),B.e,s,s,s,s,new A.T(16,10,16,10),s,s)}}
 A.OK.prototype={
