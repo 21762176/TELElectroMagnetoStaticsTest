@@ -48880,39 +48880,40 @@ r.Y$=0}s.aW()},
 BO(a){var s,r
 try{this.av(new A.aod(this,a))}catch(r){s=A.aK(r)
 A.pU(s)}},
-a5i(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="\\text{with }\\rho_{\\ell}  = ",e="\\text{with }Q  = ",d=t.p,c=A.a([A.dY(A.a([A.e_(g,g,80),A.a2("Charge distribution",g,g,g,g,g,g,g),A.e_(g,g,20),A.fy(A.a2("remove all",g,g,g,g,g,g,g),new A.anF(this),g)],d),B.R,B.an,B.U,g)],d),b=this.f,a=b.length
-if(a===0){d=A.a45(B.ic,B.M,2)
-b=A.ju(new A.aL(10,10))
-c.push(A.K(B.o,A.a2("No charge distribution added. ",g,g,g,g,g,g,g),B.e,g,g,new A.dD(g,g,d,b,g,g,B.aW),g,new A.Q(0,2,0,2),new A.Q(6,2,6,2),320))}else for(s=t.EQ,r=t.NS,q=t.dk,p=0;p<b.length;b.length===a||(0,A.M)(b),++p){o=b[p]
+a5i(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=t.p,e=A.a([A.dY(A.a([A.e_(g,g,80),A.a2("Charge distribution",g,g,g,g,g,g,g),A.e_(g,g,20),A.fy(A.a2("remove all",g,g,g,g,g,g,g),new A.anF(this),g)],f),B.R,B.an,B.U,g)],f),d=this.f,c=d.length
+if(c===0){f=A.a45(B.ic,B.M,2)
+d=A.ju(new A.aL(10,10))
+e.push(A.K(B.o,A.a2("No charge distribution added. ",g,g,g,g,g,g,g),B.e,g,g,new A.dD(g,g,f,d,g,g,B.aW),g,new A.Q(0,2,0,2),new A.Q(6,2,6,2),320))}else for(s=t.EQ,r=t.NS,q=t.dk,p=0;p<d.length;d.length===c||(0,A.M)(d),++p){o=d[p]
 $label0$0:{n=A.C(o)
 if(B.XT===n){q.a(o)
 m=o.b
-l=A.eh(A.a([A.a2("point charge",g,g,g,g,g,g,g),A.aE("\\text{at } ("+A.a4(m.a,!1,!1,4)+", "+A.a4(m.b,!1,!1,4)+", "+A.a4(m.c,!1,!1,4)+")",B.m,g),A.aE("\\text{with } Q  = "+A.iH(o.c)+" \\mathrm{C}",B.m,g)],d),B.bT,B.an,B.U)
+l=A.eh(A.a([A.a2("point charge",g,g,g,g,g,g,g),A.aE("\\text{at } ("+A.a4(m.a,!1,!1,4)+", "+A.a4(m.b,!1,!1,4)+", "+A.a4(m.c,!1,!1,4)+")",B.m,g),A.aE("\\text{with } Q  = "+A.iH(o.c)+" \\mathrm{C}",B.m,g)],f),B.bT,B.an,B.U)
 break $label0$0}if(B.XR===n){r.a(o)
 k=A.bn("mathEq")
 m=o.d
-if(o.e)k.b=A.aE(f+A.iH(m)+" \\mathrm{C/m}",B.m,g)
-else k.b=A.aE(e+A.iH(m)+" \\mathrm{C}",B.m,g)
+if(o.e)k.b=A.aE("\\text{with }\\rho_{\\ell}  = "+A.iH(m)+" \\mathrm{C/m}",B.m,g)
+else k.b=A.aE("\\text{with }Q  = "+A.iH(m)+" \\mathrm{C}",B.m,g)
 m=A.a2("uniform charge on a line",g,g,g,g,g,g,g)
 j=o.b
 i=o.c
 i=A.aE("\\text{from } ("+A.a4(j.a,!1,!1,4)+", "+A.a4(j.b,!1,!1,4)+", "+A.a4(j.c,!1,!1,4)+") \\text{ to } ("+A.a4(i.a,!1,!1,4)+", "+A.a4(i.b,!1,!1,4)+", "+A.a4(i.c,!1,!1,4)+")",B.m,g)
 j=k.b
 if(j===k)A.a8(A.f_(k.a))
-l=A.eh(A.a([m,i,j],d),B.bT,B.an,B.U)
+l=A.eh(A.a([m,i,j],f),B.bT,B.an,B.U)
 break $label0$0}if(B.XP===n){s.a(o)
 k=A.bn("mathEq")
-m=o.d
-if(o.e)k.b=A.aE(f+A.iH(m)+" \\mathrm{C/m}",B.m,g)
-else k.b=A.aE(e+A.iH(m)+" \\mathrm{C}",B.m,g)
+m=o.c
+j=o.d
+if(o.e)k.b=A.aE("\\text{with } r="+A.a4(m,!1,!1,4)+" \\text{ and } \\rho_{\\ell}  = "+A.iH(j)+" \\mathrm{C/m}",B.m,g)
+else k.b=A.aE("\\text{with } r="+A.a4(m,!1,!1,4)+" \\text{ and } Q  = "+A.iH(j)+" \\mathrm{C}",B.m,g)
 m=o.b
 m=A.aE("\\text{center at } ("+A.a4(m.a,!1,!1,4)+", "+A.a4(m.b,!1,!1,4)+", "+A.a4(m.c,!1,!1,4)+")",B.m,g)
 j=k.b
 if(j===k)A.a8(A.f_(k.a))
-l=A.eh(A.a([B.aMH,m,j],d),B.bT,B.an,B.U)
+l=A.eh(A.a([B.aMH,m,j],f),B.bT,B.an,B.U)
 break $label0$0}l=new A.rl(g)}h=new A.be(B.ic,2,B.M,-1)
 m=new A.aL(10,10)
-c.push(A.K(B.o,A.dY(A.a([A.K(g,l,B.e,g,g,new A.dD(g,g,new A.ds(h,h,h,h),new A.cn(m,m,m,m),g,g,B.aW),g,new A.Q(0,2,0,2),new A.Q(6,2,6,2),280),A.K(g,A.aaj(g,B.wK,16,new A.anG(this,o),g,g),B.e,g,g,g,g,g,g,40)],d),B.R,B.an,B.U,g),B.e,g,g,g,g,g,g,g))}return c},
+e.push(A.K(B.o,A.dY(A.a([A.K(g,l,B.e,g,g,new A.dD(g,g,new A.ds(h,h,h,h),new A.cn(m,m,m,m),g,g,B.aW),g,new A.Q(0,2,0,2),new A.Q(6,2,6,2),280),A.K(g,A.aaj(g,B.wK,16,new A.anG(this,o),g,g),B.e,g,g,g,g,g,g,40)],f),B.R,B.an,B.U,g),B.e,g,g,g,g,g,g,g))}return e},
 a5j(){if(this.f.length===0){var s=this.c
 s.toString
 A.JG(new A.anI(),s,t.z)
@@ -50443,7 +50444,7 @@ c7="d \\vec{\\ell} = r \\, d \\vec{\\phi} = (-r \\sin(\\phi) \\overrightarrow{a_
 c8="\\det \\begin{bmatrix}  \\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}} \\\\-r \\sin(\\phi) d \\phi & r \\cos(\\phi) d \\phi & 0\\\\R_x & R_y & R_z \\end{bmatrix} "
 c9="(r \\cos(\\phi) \\cdot R_z) \\overrightarrow{a_{\\text x}} "
 d0="(r \\sin(\\phi) \\cdot R_z) \\overrightarrow{a_{\\text y}} "
-d1="-(r \\sin(\\phi) \\cdot R_y + r \\cos(\\phi) \\cdot R_x) \\overrightarrow{a_{\\text z}} "}m=A.K(B.o,A.O7(e0,300),B.e,d3,d3,d3,d3,d3,d3,d3)
+d1="(-r \\sin(\\phi) \\cdot R_y - r \\cos(\\phi) \\cdot R_x) \\overrightarrow{a_{\\text z}} "}m=A.K(B.o,A.O7(e0,300),B.e,d3,d3,d3,d3,d3,d3,d3)
 l=A.K(B.w,A.aN(A.aE(d4,B.m,new A.n(!0,d3,d3,d3,d3,d3,18,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3)),new A.Q(2,2,2,2),B.l),B.e,d3,d3,d3,d3,d3,d3,d3)
 k=A.K(B.w,A.a2(u.F,d3,d3,d3,!0,new A.n(!0,d3,d3,d3,d3,d3,16,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3,d3),B.H,d3),B.e,d3,d3,d3,d3,d3,d3,d3)
 s=A.c1(s)
